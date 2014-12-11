@@ -11,23 +11,10 @@ public class MarshmallowMonster
 	private boolean hasBellyButton;
 	private double numberOfLegs;
 	
-	public MarshmallowMonster()
-	{
-		
-	}
-	
-	public MarshmallowMonster(String name, int eyeCount, int armCount, int noseCount, double amountOfLegs, double amountOfHair, boolean hasBellyButton)
+	public MarshmallowMonster(String name, int eyeCount)
 	{
 		this.name = name;
-		this.eyeCount = eyeCount;
-		this.armCount = armCount;
-		this.noseCount = noseCount;
-		this.numberOfLegs = amountOfLegs;
-		this.amountOfHair = amountOfHair;
-		this.hasBellyButton = hasBellyButton;
-		
-		
-		
+		this.eyeCount = eyeCount;	
 	}
 	
 	public MarshmallowMonster(String name, double numberOfLegs, double amountOfHair, int armCount, int eyeCount, int noseCount, boolean hasBellyButton)
